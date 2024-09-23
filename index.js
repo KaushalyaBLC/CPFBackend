@@ -7,7 +7,7 @@ const connectDB = require("./config/db.js");
 
 const careerRoutes = require("./routes/careersRoutes");
 const passionIdRouters = require("./routes/passionIDRouters.js");
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 3000;
 
 dotenv.config();
 
